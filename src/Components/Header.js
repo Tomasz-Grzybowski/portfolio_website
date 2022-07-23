@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 
+
 class Header extends Component {
   render() {
     if (!this.props.data) return null;
@@ -10,10 +11,14 @@ class Header extends Component {
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
+    const linkedin = this.props.data.social[2].url;
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        <ParticlesBg
+          type="lines"
+          bg={true}
+        />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -44,7 +49,7 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Certificates
               </a>
             </li>
 
@@ -70,8 +75,8 @@ class Header extends Component {
                 <a href={project} className="button btn project-btn">
                   <i className="fa fa-book"></i>Project
                 </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
+                <a href={linkedin} className="button btn github-btn">
+                  <i className="fa fa-linkedin"></i>Linked.in
                 </a>
               </ul>
             </Fade>
