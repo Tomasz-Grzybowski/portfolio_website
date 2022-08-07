@@ -8,7 +8,6 @@ class Header extends Component {
     if (!this.props.data) return null;
 
     const project = this.props.data.project;
-    const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
     const linkedin = this.props.data.social[2].url;

@@ -75,6 +75,56 @@
         "description": "Schedule Planning, goods-in and despatch related problem solving, customer support, co-operation with management from different departments."
       }
     ],
+    "certs": [
+      {
+        "name": "AWS Certified Solutions Architect – Associate",
+        "issuer": "Amazon Web Services Training and Certification",
+        "picture": "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
+        "exp": "January 21, 2025"
+      },
+      {
+        "name": "AWS Certified Cloud Practitioner",
+        "issuer": "Amazon Web Services Training and Certification",
+        "picture": "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+        "exp": "January 21, 2025"
+      },
+      {
+        "name": "MTA: Database Fundamentals - Certified 2021",
+        "issuer": "Microsoft",
+        "picture": "https://images.credly.com/size/340x340/images/bcce29de-388a-421e-aa4e-49d08e5f6b8c/MTA-Database_Fundamentals-600x600.png",
+        "exp": "never"
+      },
+      {
+        "name": "MTA: Security Fundamentals - Certified 2021",
+        "issuer": "Microsoft",
+        "picture": "https://images.credly.com/size/340x340/images/3f36cda2-b4c2-46ba-a6d8-f11219631451/MTA-Security_Fundamentals-600x600.png",
+        "exp": "never"
+      },
+      {
+        "name": "MTA: Networking Fundamentals - Certified 2021",
+        "issuer": "Microsoft",
+        "picture": "https://images.credly.com/size/340x340/images/2feaf613-be86-4d79-9cf8-c7aef82031c7/MTA-Networking_Fundamentals-600x600.png",
+        "exp": "never"
+      },
+      {
+        "name": "MTA: Software Development Fundamentals - Certified 2021",
+        "issuer": "Microsoft",
+        "picture": "https://images.credly.com/size/340x340/images/c2537593-9f53-4901-9207-f51376ce7150/MTA-Software_Development_Fundamentals-600x600.png",
+        "exp": "never"
+      },
+      {
+        "name": "MTA: Windows Server Administration Fundamentals - Certified 2021",
+        "issuer": "Microsoft",
+        "picture": "https://images.credly.com/size/340x340/images/65593178-9224-43a3-bf3c-98715f94dcf8/MTA-Windows_Server_Administration_Fundamentals-600x600.png",
+        "exp": "never"
+      },
+      {
+        "name": "AWS Academy Graduate - AWS Academy Cloud Foundations",
+        "issuer": "Amazon Web Services Training and Certification",
+        "picture": "https://images.credly.com/size/340x340/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png",
+        "exp": "never"
+      }
+    ],
     "skills": [
       {
         "name": "Python",
@@ -99,12 +149,19 @@
     ]
   },
   "portfolio": {
+    "projectdesc": "The is aim of the project is to increase a project success rate by developing a web application the will allow the user to provision cloud resources to end users in development teams with no knowledge of Infrastructure as Code and Identity and Access Management.",
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "01.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Application screenshot",
+        "category": "Application",
+        "image": "ccm-screenshot.png",
+        "url": "https://app.tomasz.live"
+      },
+      {
+        "title": "Achitecture",
+        "category": "Application",
+        "image": "ccm-architecture.png",
+        "url": "https://app.tomasz.live"
       }
     ]
   }
